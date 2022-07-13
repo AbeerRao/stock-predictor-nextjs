@@ -5,7 +5,7 @@ import { useState } from 'react'
 const Home: NextPage = () => {
 
   const [symbol, setSymbol] = useState('')
-  const [time, setTime] = useState(0)
+  const [time, setTime] = useState('')
   const [returnData, setReturnData] = useState([])
   const [predData, setPredData] = useState([])
 
